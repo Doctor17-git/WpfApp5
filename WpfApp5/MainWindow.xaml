@@ -1,0 +1,24 @@
+﻿<Window x:Class="WpfApp5.MainWindow"
+        xmlns="http://schemas.microsoft.com/winfx/2006/xaml/presentation"
+        xmlns:x="http://schemas.microsoft.com/winfx/2006/xaml"
+        xmlns:d="http://schemas.microsoft.com/expression/blend/2008"
+        xmlns:mc="http://schemas.openxmlformats.org/markup-compatibility/2006"
+        xmlns:local="clr-namespace:WpfApp5"
+        mc:Ignorable="d"
+        Title="MainWindow" Height="450" Width="800">
+    <Grid>
+        <TextBlock HorizontalAlignment="Left" Margin="10,10,0,0" TextWrapping="Wrap" Text="Понедельник" VerticalAlignment="Top" Height="30" Width="387" Background="#FF71FBCF" TextAlignment="Center" FontSize="22"/>
+        <TextBlock HorizontalAlignment="Left" Margin="402,10,0,0" TextWrapping="Wrap" Text="Четверг" VerticalAlignment="Top" Height="30" Width="380" Background="#FF71FBCF" TextAlignment="Center" FontSize="22"/>
+        <TextBlock HorizontalAlignment="Left" Margin="10,148,0,0" TextWrapping="Wrap" Text="Вторни" VerticalAlignment="Top" Height="30" Width="387" Background="#FF71FBCF" TextAlignment="Center" FontSize="22"/>
+        <TextBlock HorizontalAlignment="Left" Margin="402,148,0,0" TextWrapping="Wrap" Text="Пятница" VerticalAlignment="Top" Height="30" Width="380" Background="#FF71FBCF" TextAlignment="Center" FontSize="22"/>
+        <TextBlock HorizontalAlignment="Left" Margin="10,274,0,0" TextWrapping="Wrap" Text="Среда" VerticalAlignment="Top" Height="30" Width="387" Background="#FF71FBCF" TextAlignment="Center" FontSize="22"/>
+        <TextBlock HorizontalAlignment="Left" Margin="402,274,0,0" TextWrapping="Wrap" Text="Суббота" VerticalAlignment="Top" Height="30" Width="380" Background="#FF71FBCF" TextAlignment="Center" FontSize="22"/>
+        <TextBlock HorizontalAlignment="Left" Margin="10,45,0,0" TextWrapping="Wrap" VerticalAlignment="Top" Height="98" Width="387" FontSize="22"><Run Text="1-2 Компьютерные сети"/><LineBreak/><Run Text="3-4 Операционные системы"/><LineBreak/><Run Text="5-6 Базы данных"/></TextBlock>
+        <TextBlock HorizontalAlignment="Left" Margin="402,45,0,0" TextWrapping="Wrap" VerticalAlignment="Top" Height="98" Width="380"/>
+        <TextBlock HorizontalAlignment="Left" Margin="10,171,0,0" TextWrapping="Wrap" VerticalAlignment="Top" Height="98" Width="387"/>
+        <TextBlock HorizontalAlignment="Left" Margin="402,171,0,0" TextWrapping="Wrap" VerticalAlignment="Top" Height="98" Width="380"/>
+        <TextBlock HorizontalAlignment="Left" Margin="10,311,0,0" TextWrapping="Wrap" VerticalAlignment="Top" Height="98" Width="387"/>
+        <TextBlock HorizontalAlignment="Left" Margin="402,311,0,0" TextWrapping="Wrap" VerticalAlignment="Top" Height="98" Width="380"/>
+
+    </Grid>
+</Window>
